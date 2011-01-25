@@ -2,3 +2,10 @@ body {
   margin: 50px auto;
   width:600px;
 }
+
+input#submit {
+width:100px;
+height:40px;
+background-color:red;
+color:white;
+}
