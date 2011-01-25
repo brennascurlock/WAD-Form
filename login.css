@@ -9,3 +9,16 @@ height:40px;
 background-color:red;
 color:white;
 }
+
+ul {
+  width: 350px;
+  list-style:none;
+  padding: 10px;
+  background-color:blue;
+  -moz-border-radius: 15px;
+  color:white;
+}
+
+li {
+  padding:10px;
+}
