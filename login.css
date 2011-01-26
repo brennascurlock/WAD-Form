@@ -37,6 +37,7 @@ ul {
   padding: 10px;
   background-color:blue;
   -moz-border-radius: 15px;
+  border-radius: 15px;
   color:white;
 }
 
