@@ -4,6 +4,8 @@
   <title>Log-in Form</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="login.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="script.js"></script>
   </head>
   <body>
 
@@ -12,17 +14,17 @@
 <h2>jQuery badasses only!</h2>
 </header>
     
-<form id="confirm">
+<form id="badass">
 	<ul>
 		<li>Please confirm that you are a badass:</li>
-		<li><input for="confirm" name="confirm" type="checkbox" required />I solemnly swear I'm up to no good.</li>
+		<li><input id="confirm" name="confirm" type="checkbox" required />
+			<label for="confirm">I solemnly swear I'm up to no good.</label>
+		</li>
 	</ul>
 </form>
-<form id="login" class="hide"> 
 
-	
-
-  <ul>
+<form id="login"> 
+  <ul class="hide">
   <li>Log in with your email address and password.</li>
     <li><label for="email">Email address</label>
     <input id="email" name="email" type="email" required /></li>

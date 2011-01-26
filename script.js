@@ -1,9 +1,4 @@
-$("#myform").validate({
-  rules: {
-    field: {
-      required: true,
-      email: true
-    }
-  }
+$(document).ready(function(){ 
+	$(':checkbox[name="confirm"]').change(function(){
+		$('#login ul').removeClass('hide')}
 });
-
