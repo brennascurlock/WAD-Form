@@ -1,4 +1,7 @@
+
 $(document).ready(function(){ 
-	$(':checkbox[name="confirm"]').change(function(){
-		$('#login ul').removeClass('hide')}
+	$('#swear').click(function() { 
+		$('#login ul').removeClass('hide');
+	})
+
 });
